@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ 
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="ml-6 mr-14 lg:mr-135 ml-135 space-y-6 ">
+ <header>
+  <div>
+   <!-- Navbar Starts -->
+   <nav >
+    <div class="navbar bg-base-100">
+     <div class="navbar-start">
+       <div class="dropdown">
+         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+         </div>
+         <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+           <li><a>Home</a></li>
+           <li>
+             <a>About</a>
+
+           </li>
+           <li><a>Pages</a></li>
+           <li><a>Block</a></li>
+           <li><a>Contact</a></li>
+         </ul>
+       </div>
+       
+         <a class="btn btn-ghost text-1xl">Hockey<span class="text-red-500">'</span>s</a>
+
+
+
+     </div>
+     <div class="navbar-center hidden lg:flex">
+       <ul class="menu menu-horizontal px-1">
+         <li><a class="text-red-500">Home</a></li>
+         <li>
+           
+             <summary>About</summary>
+
+           
+         </li>
+         <li><a>Pages</a></li>
+         <li><a>Blog</a></li>
+         <li><a>Contact</a></li>
+       </ul>
+     </div>
+
+     <div class="navbar-end space-x-4" >
+      <!-- search bar using heroicons -->
+      <svg class="h-6 hidden lg:inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+       <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+   </svg>
+   
+     
+       <a class="btn btn-error">GET TICKET</a>
+     </div>
+   </div>
+   </nav>
+   <!-- Navbar Ends -->
+
+
+   <!-- sliding window starts -->
+
+
+   <div>
+    <div class="carousel w-full h-[550px]">
+
+     <div id="slide3" class="carousel-item relative w-full">
+       <img src="1.png" class="w-full" />
+       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+         <a href="#slide2" class="btn btn-circle">❮</a> 
+         <a href="#slide4" class="btn btn-circle">❯</a>
+       </div>
+     </div> 
+     <div id="slide4" class="carousel-item relative w-full">
+       <img src="2.png" class="w-full" />
+       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+         <a href="#slide3" class="btn btn-circle">❮</a> 
+         <a href="#slide1" class="btn btn-circle">❯</a>
+       </div>
+     </div>
+   </div>
+<!-- The black box part starts  -->
+
+
+<!-- The black box part ends -->
+   </div>
+
+
+   <div class=" flex flex-col justify-center my-10 items-center w-full h-32 text-slate-50 bg-black lg:-translate-y-48 lg:my-0 lg:translate-x-3/4 lg:w-1/2 lg: w-2/4 lg:h-[20vh]  lg:flex flex-col justify-center items-center">
+    <h1 class="text-2xl lg:text-4xl">Meet all the heroes from the field if you want</h1>
+    <p>From Hazar to Sane. Even Messi and Ronaldo. It'll be your dream run</p>
+   </div>
+   <!-- Sliding window ends here -->
+
+
+   <!-- Progress starts -->
+   <div>
+    <!-- content -->
+    <div class="flex flex-col justify-center items-center outline-dotted text-center space-y-6">
+     <h1 class="text-5xl">Professional Hockeys Club</h1>
+     <p class="text-2xl mt-8">With ten men’s teams, six ladies teams, a mixed side, a range of youth teams, various touring sides and Back to Hockey sessions, Woking Hockey Club offers hockey to players of any ability.</p>
+    </div>
+
+    <!-- content ends -->
+
+    <!-- progress -->
+    <div class="my-10 space-x-4 lg:m-10 flex justify-center lg:space-x-44 ">
+     <div class="radial-progress text-orange-700" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
+     <div class="radial-progress text-green-400" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
+     <div class="radial-progress text-yellow-200" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
+     <div class="radial-progress text-cyan-400" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
+     <!-- progress end -->
+     
+    </div>
+
+<!-- 2nd content starts -->
+    <div class="mt-44 flex flex-col justify-center items-center outline-dotted text-center space-y-6">
+      <h1 class="text-5xl">Program Sections
+      </h1>
+      <p class="text-2xl mt-2">We've different program which you can choose and start your joourney with us</p>
+     </div>
+ <!-- 2nd content ends -->
+    
+   </div>
+
+   <!-- Progress ENDS  -->
+
+   
+
+
+   <!-- <div class="mt-10 grid grid-cols-6 grid-rows-6 space-x-2">
+
+    <div class="row-span-3 col-span-3">
+      <img src="3.png" alt="" srcset="" class="w-full h-full">
+    </div>
+    
+    <div class="row-span-3 col-span-3">
+      <img src="2.png" alt="" srcset="" class="w-full h-full">
+    </div>
+  
+  </div> -->
+
+  <!-- PROGRAM PICTURES STARTS -->
+  <div class="mt-10  h-[550px] lg:grid grid-cols-6 grid-rows-6 lg:space-x-2 ">
+    <div class=" flex flex-col justify-center items-center p-8 text-sm text-slate-50 rounded-xl row-span-3 col-span-3 " style="background-image: url('3.png'); background-repeat: no-repeat; background-size: 100% 100%"><span class="text-2xl" >Junior Program</span> Here junior high school students can take part and polish their skills <span><Button class="btn btn-error mt-4">Register Now!</Button></span>
+    </div>
+
+    <div class="flex flex-col mt-2 lg:mt-0 justify-center p-8 items-center text-sm text-slate-50 rounded-xl row-span-3 col-span-3 " style="background-image: url('2.png'); background-repeat: no-repeat; background-size: 100% 100%"><span  class="text-2xl">Teenager Program</span> This program is specially for our teenage members.<Button class="btn btn-error mt-4">Register Now!</Button></span></div>
+
+    <div class="mt-2 flex flex-col justify-center p-8 items-center text-sm text-slate-50 rounded-xl row-span-3 col-span-6 " style="background-image: url('4.png'); background-repeat: no-repeat; background-size: 100% 100%"><span  class="text-2xl">Professional Program</span> This program is specially for Professional players who wants to conquer the world.<Button class="btn btn-error mt-4">Register Now!</Button></span></div>
+
+  </div>
+
+  <!-- PROGRAM PICTURES ENDS -->
+  
+<!-- NEW PRODUCT STARTS -->
+    <!--content starts  -->
+<div class="mt-32 flex flex-col justify-center items-center outline-dotted text-center space-y-6">
+  <h1 class="text-5xl">Program Sections
+  </h1>
+  <p class="text-2xl mt-2">We've different program which you can choose and start your joourney with us</p>
+ </div>
+ <!--content ends  -->
+
+  
+   
+  </div>
+
+ </header>
+
+
+ <body>
+  
+
+ </body>
+
+
+ <footer>
+
+
+ </footer>
+ 
+</body>
+</html>
